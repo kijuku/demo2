@@ -1,3 +1,6 @@
-��#� �d�e�m�o�2�
-�
-�Olio - ohjelmoinnin - demo 2
+READ.me
+
+Olio - ohjelmoinnin - demo 2
+
+Hedgehog.java - olio
+App.java - pääohjelma
