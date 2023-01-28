@@ -32,7 +32,13 @@ public class Siili {
         }
     }
     public void Speak(String Str){
-        System.out.println(name + ": " + Str);
+        if (Str != ""){
+            System.out.println(name + ": " + Str);
+        }
+        else {
+            //Olen <siilin nimi> ja ikäni on <siilin ikä>, mutta antaisitko silti syötteen?
+            System.out.println("Olen " + name + " ja ikäni on " + age + ", mutta antaisitko silti syötteen?");
+        }
     }
 
     public String getName(){
